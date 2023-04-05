@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DBQL_SV">
+  <DataContextMoniker Name="/DBQL_SVDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0fb971d3-7464-4ca3-93aa-078b61f5cc5b" absoluteBounds="0.75, 1.625, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DBQL_SVDataContext/LopSH" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b40ca002-7d9d-4f14-b61c-8713a9695e66" absoluteBounds="0.765, 2.085, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9172a13c-2c48-475d-b9f5-971b47fb57a6" absoluteBounds="3.5, 1, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/DBQL_SVDataContext/SV" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0d347a35-957f-4d06-a4c4-20a8e14ef612" absoluteBounds="3.515, 1.46, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 2.22199625651042); (3.5 : 2.22199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/DBQL_SVDataContext/LopSH/LopSH_SV" />
+      <nodes>
+        <classShapeMoniker Id="0fb971d3-7464-4ca3-93aa-078b61f5cc5b" />
+        <classShapeMoniker Id="9172a13c-2c48-475d-b9f5-971b47fb57a6" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
